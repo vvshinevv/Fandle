@@ -1,0 +1,178 @@
+/* Theme Name: The Project - Responsive Website Template
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Author e-mail:htmlcoder.me@gmail.com
+Version:1.2.0
+Created:December 2014
+License URI:http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles abc
+*/
+
+ul.pagination,
+ul.pager {
+  margin: 20px 0 40px;
+  text-align: left;
+}
+ul.pagination li {
+  padding: 0;
+  margin: 0 5px 0 0;
+  border-bottom: none;
+  display: inline-block;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+ul.pagination li > a,
+.pagination > li:first-child > a,
+.pagination > li:last-child > a,
+ul.pager li > a {
+  text-align: center;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #777777;
+  line-height: 20px;
+  background-color: #777777;
+  color: #ffffff;
+  display: inline-block;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+ul.pagination li > a:hover,
+ul.pagination li > a:focus {
+  background-color: transparent;
+  color: #ffffff;
+  background-color: indianred;
+  border-color: indianred;
+}
+ul.pagination li.active a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus {
+  color: #ffffff;
+  background-color: indianred;
+  border-color: indianred;
+}
+.cart .table > thead > tr > th,
+.cart.table > thead > tr > th {
+  text-align: center;
+}
+.cart .table > tbody > tr > td,
+.cart.table > tbody > tr > td {
+  vertical-align: inherit;
+}
+.cart .quantity {
+  width: 50px;
+  font-size: 11px;
+}
+.cart .product {
+  width: 100px;
+  font-size: 13px;
+}
+.cart .product .small {
+  display: block;
+  color: #999999;
+}
+.swiper-container {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-button-next {
+  background-image: url("/static/movie/next-icon.png");
+  -webkit-background-size:contain;
+  background-size:cover;
+}
+.swiper-button-prev {
+  background-image: url("/static/movie/prev-icon.png");
+  -webkit-background-size:contain;
+  background-size:cover;
+}
+.swiper-pagination-bullet-active {
+  background: #333333;
+}
+
+#page-start a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#page-start a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+#page-start .project-box {
+  position: relative;
+  float: none;
+  padding: 0;
+  margin: 0 auto;
+  border: 1px solid #C2CCD1;
+  box-shadow: 1px 1px 1px #C2CCD1;
+}
+
+#page-start .project-box .project-box-date {
+  position: absolute;
+  font-size: 15px;
+  background-color: indianred;
+  border-radius: 10px;
+  vertical-align: center;
+  right: 15px;
+  top: 15px;
+  z-index: 20;
+}
+
+form input {
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .slider-banner-container ul .fullscreenvideo {
+    display: none;
+  }
+
+  #footer-start .foot-cate{
+    display: block;
+  }
+
+  #page-start .project-box .project-box-date {
+    position: absolute;
+    font-size: 15px;
+    background-color: indianred;
+    border-radius: 10px;
+    vertical-align: center;
+    right: 5px;
+    top: 5px;
+    z-index: 20;
+  }
+  .banner {
+    margin-top: 49px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .slider-banner-container .slider-banner-fullwidth-big-height ul img {
+    display: none;
+  }
+}
+
