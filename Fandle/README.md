@@ -1,8 +1,7 @@
-#2017.02월 졸업 작품
+# 2017.02월 졸업 작품
 
-작품명 : FANDLE
-관련 서비스 : Crowd Funding
-
+## 작품명 : FANDLE
+## 관련 서비스 : Crowd Funding
 
 - Operating System Type : GNU/Linux
 - OS Name : Ubuntu 14.04, Trusty Tahr x86_64
@@ -15,4 +14,4 @@
 
 - Database : mySQL
 
-- Domain : www.fandle.net(현재 폐지: 2017.03.14)
+- Domain : www.fandle.net (현재 서비스 종료: 2017.03.14)
